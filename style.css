@@ -1,6 +1,7 @@
 body,
 html {
 	height: 100%;
+	margin: 0;
 }
 
 .parallax,
@@ -17,23 +18,23 @@ html {
 }
 
 .parallax-10 {
-	height: 10%;
+	height: 5vh;
 }
 
 .parallax-20 {
-	height: 20%;
+	height: 10vh;
 }
 
 .parallax-30 {
-	height: 30%;
+	height: 15vh;
 }
 
 .parallax-40 {
-	height: 40%;
+	height: 20vh;
 }
 
 .parallax-50 {
-	height: 50%;
+	height: 25vh;
 }
 
 h1,
@@ -105,6 +106,7 @@ h2 {
 	background-color: transparent;
 }
 
+/* Table */
 table {
 	width: 100%;
 	border: none;
@@ -112,13 +114,13 @@ table {
 	border-collapse: separate;
 }
 
-@media screen and (max-width: 570px) {
+/* @media screen and (max-width: 570px) {
 
 	table th,
 	table td {
 		display: block;
 	}
-}
+} */
 
 table thead th {
 	font-weight: bold;
@@ -162,11 +164,11 @@ table thead tr td:last-child {
 }
 
 table thead tr:first-child th:first-child {
-	border-radius: 20px 0 0 0;
+	border-radius: 10px 0 0 0;
 }
 
 table thead tr:first-child th:last-child {
-	border-radius: 0 20px 0 0;
+	border-radius: 0 10px 0 0;
 }
 
 table tbody td {
@@ -190,11 +192,11 @@ table tbody tr:last-child td {
 }
 
 table tbody tr:last-child td:first-child {
-	border-radius: 0 0 0 20px;
+	border-radius: 0 0 0 10px;
 }
 
 table tbody tr:last-child td:last-child {
-	border-radius: 0 0 20px 0;
+	border-radius: 0 0 10px 0;
 }
 
 /* Меню */
@@ -352,7 +354,7 @@ nav a:focus {
 	.menu__body {
 		position: fixed;
 		top: 0;
-		left: -110%;
+		left: -120%;
 		width: 100%;
 		height: 100%;
 		background-color: rgba(0, 0, 0, 0.9);
@@ -408,17 +410,17 @@ nav a:focus {
 	padding: 20px;
 	margin: 20px;
 	border: black solid 1px;
-	border-radius: 2%;
+	border-radius: 10px;
 	box-shadow: 10px 5px 5px rgb(199, 199, 0);
 }
 
 .advantages__row {
 	display: flex;
+	flex-wrap: wrap;
 	padding: 20px 0px;
 	margin: 20px 0px;
-	flex-wrap: wrap;
 	justify-content: space-between;
-	height: 400px;
+	min-height: 400px;
 }
 
 .advantages__item {
@@ -443,8 +445,10 @@ nav a:focus {
 	border: black solid 1px;
 	padding: 10px;
 	margin: 10px;
-	border-radius: 10%;
+	border-radius: 10px;
 	box-shadow: 10px 5px 5px rgb(199, 199, 0);
+	min-width: 120px;
+	width: 100%;
 }
 
 .advantages__item__header {
@@ -463,4 +467,31 @@ nav a:focus {
 .advanteges__item__text {
 	font-size: 16px;
 	text-align: justify;
+}
+
+@media (max-width:480px) {
+
+	.advantages__item_1,
+	.advantages__item_2,
+	.advantages__item_3 {
+		align-items: flex-start;
+	}
+
+	.advantages__item {
+		width: 100%;
+	}
+
+	table thead tr:nth-child(2) th:nth-child(2),
+	table thead tr:nth-child(2) th:nth-child(3),
+	table thead tr:nth-child(2) th:nth-child(4),
+	table tbody td:nth-child(4),
+	table tbody td:nth-child(5),
+	table tbody td:nth-child(6) {
+		display: none;
+	}
+
+	table thead th,
+	table thead td {
+		padding: 5px;
+	}
 }
