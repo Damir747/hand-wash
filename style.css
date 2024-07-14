@@ -1,0 +1,197 @@
+body,
+html {
+	height: 100%;
+}
+
+.parallax,
+.parallax-10,
+.parallax-20,
+.parallax-30,
+.parallax-40,
+.parallax-50 {
+	background-image: url("images/image.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.parallax-10 {
+	height: 10%;
+}
+
+.parallax-20 {
+	height: 20%;
+}
+
+.parallax-30 {
+	height: 30%;
+}
+
+.parallax-40 {
+	height: 40%;
+}
+
+.parallax-50 {
+	height: 50%;
+}
+
+h1,
+h2 {
+	text-align: center;
+}
+
+h1 {
+	font-size: 1.5em;
+}
+
+h2 {
+	font-size: 1.2em;
+}
+
+.header-block,
+.header-block2 {
+	width: 100%;
+	color: white;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 1.3em;
+	padding: 20px 0px;
+	margin: 1vh auto;
+	background-color: rgb(199, 199, 0);
+}
+
+.header-block2 {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.header-block2 .address {
+	margin: 0 3%;
+}
+
+.header-block2 .telephone {
+	margin: 0 3%;
+	order: 999;
+	margin-left: auto;
+}
+
+#floating-button {
+	position: fixed;
+	z-index: 100;
+	bottom: 20px;
+	right: 20px;
+	background: -moz-linear-gradient(#D0ECF4, #c7c700, #D0ECF4);
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#D0ECF4), to(#D0ECF4), color-stop(0.5, #c7c700));
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00BBD6', endColorstr='#EBFFFF');
+	color: white;
+	border: none;
+	padding: 8px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	border-radius: 10px;
+	cursor: pointer;
+
+}
+
+#floating-button:hover {
+	background-color: #ff7961;
+}
+
+.container {
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+table {
+	width: 100%;
+	border: none;
+	margin-bottom: 20px;
+	border-collapse: separate;
+}
+
+@media screen and (max-width: 570px) {
+
+	table th,
+	table td {
+		display: block;
+	}
+}
+
+table thead th {
+	font-weight: bold;
+	text-align: center;
+	border: none;
+	padding: 10px 15px;
+	background: #01ffd5;
+	font-size: 14px;
+	border-top: 1px solid #ddd;
+}
+
+table thead tr th:first-child,
+table thead tr td:first-child {
+	border-left: 1px solid #ddd;
+}
+
+table thead th:nth-child(1) {
+	width: 5%;
+}
+
+table thead tr:nth-child(1) th:nth-child(2) {
+	width: 45%;
+}
+
+table thead tr:nth-child(2) th:nth-child(1),
+table thead tr:nth-child(2) th:nth-child(2),
+table thead tr:nth-child(2) th:nth-child(3),
+table thead tr:nth-child(2) th:nth-child(4),
+table thead tr:nth-child(2) th:nth-child(5) {
+	width: 10%;
+}
+
+table thead th,
+table thead td {
+	padding: 20px;
+}
+
+table thead tr th:last-child,
+table thead tr td:last-child {
+	border-right: 1px solid #ddd;
+}
+
+table thead tr:first-child th:first-child {
+	border-radius: 20px 0 0 0;
+}
+
+table thead tr:first-child th:last-child {
+	border-radius: 0 20px 0 0;
+}
+
+table tbody td {
+	text-align: center;
+	border: none;
+	padding: 10px 15px;
+	font-size: 14px;
+	vertical-align: top;
+}
+
+table tbody td[scope="row"] {
+	text-align: left;
+}
+
+table tbody tr:nth-child(even) {
+	background: #5bd8c3;
+}
+
+table tbody tr:last-child td {
+	border-bottom: 1px solid #ddd;
+}
+
+table tbody tr:last-child td:first-child {
+	border-radius: 0 0 0 20px;
+}
+
+table tbody tr:last-child td:last-child {
+	border-radius: 0 0 20px 0;
+}
