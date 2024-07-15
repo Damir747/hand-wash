@@ -407,6 +407,7 @@ nav a:focus {
 
 .advantages__header,
 .price__header,
+.gallery__header,
 .contacts__header {
 	font-size: 22px;
 	padding: 20px;
@@ -423,6 +424,15 @@ nav a:focus {
 	margin: 20px 0px;
 	justify-content: space-between;
 	min-height: 400px;
+}
+
+.gallery__video {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 20px 0px;
+	margin: 20px 0px;
+	justify-content: space-between;
+	/* min-height: 400px; */
 }
 
 .advantages__item {
