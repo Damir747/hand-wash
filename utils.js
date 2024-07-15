@@ -49,7 +49,7 @@ const findElementAll = (container, selector) => {
 			const gotoBlock = findElement(document, menuLink.dataset.goto);
 			if (menuLink.dataset.goto && gotoBlock) {
 				const gotoBlockValue = gotoBlock.getBoundingClientRect().top + pageYOffset - findElement(document, '.header_main').offsetHeight;
-				console.log('>', gotoBlock.getBoundingClientRect().top);	// изменяется. Прокрутка до середины раздела делает нужным высоту раздела
+				// console.log('>', gotoBlock.getBoundingClientRect().top);	// изменяется. Прокрутка до середины раздела делает нужным высоту раздела
 				// console.log(pageYOffset);
 				// console.log(findElement(document, '.header_main').offsetHeight);
 				if (iconMenu.classList.contains('_active')) {
