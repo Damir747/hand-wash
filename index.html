@@ -5,9 +5,9 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Ручная мойка. Шипиловская, 18</title>
+	<link rel="canonical" href="https://ручная-мойка.рф" />
 	<link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-	<!-- <link rel="stylesheet" href="reviews.css"> -->
+	<link rel="stylesheet" href="/swiper/swiper-bundle.min.css" />
 	<link rel="icon" href="/favicon.ico" type="image/x-icon">
 	<meta name="keywords" content="ручная автомойка" />
 	<meta name="description" content="Ручная автомобильная мойка по адресу: Шипловская улица, 18" />
@@ -614,21 +614,38 @@
 	<div class="parallax-20"></div>
 
 	<div id="contacts" class="page__section_7">
-		<div class="container">
+		<div class="container" itemscope itemtype="https://schema.org/AutoWash">
 			<h2 class="contacts__header">
 				Контакты
 			</h2>
 			<div class="contacts__address">
+				<meta itemprop="name" content="Ручная мойка" />
+				<meta itemprop="image" content="https://ручная-мойка.рф/images/logo.png" />
+				<meta itemprop="url" content="https://ручная-мойка.рф" />
+				<meta itemprop="priceRange" content="1000-1800₽" />
+				<meta itemprop="paymentAccepted" content="банковские карты, наличные" />
 				<a href="https://yandex.ru/maps/org/166413061575"
 					onclick="ym(97536957, 'reachGoal', 'address'); return true;" rel="nofollow noopener" target="_blank">
-					Москва, Шипиловская, 28
+					<span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+						<meta itemprop="addressCountry" content="RU" />
+						<meta itemprop="postalCode" content="115563" />
+						<span itemprop="addressLocality">Москва</span>, <span itemprop="streetAddress">ул.
+							Шипиловская, 28
+						</span>
+					</span>
 				</a>
 			</div>
 
 			<div class="contacts__telephone">
 				<a href="tel:+79850321595" onclick="ym(97536957, 'reachGoal', 'telephone'); return true;"
-					rel="nofollow noopener" target="_blank">+7 (985) 032-15-95</a>
+					rel="nofollow noopener" target="_blank">
+					<span itemprop="telephone">
+						+7 (985) 032-15-95
+					</span>
+				</a>
 			</div>
+
+			<meta itemprop="openingHours" content="Mo-Su 09:00-21:00" />
 			<div class="contacts__operating-mode">Режим работы: ежедневно с 9:00 до 21:00</div>
 		</div>
 		<div id="maps" class="contacts__maps">
@@ -711,7 +728,7 @@
 		</div> -->
 
 	<script async="" src="utils.js"></script>
-	<script defer="" src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<script defer="" src="/swiper/swiper-bundle.min.js"></script>
 	<script defer="" src="reviews.js"></script>
 
 	<!-- Yandex.Metrika counter -->
