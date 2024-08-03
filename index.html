@@ -6,6 +6,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Ручная мойка. Шипиловская, 18</title>
 	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="reviews.css">
 	<link rel="icon" href="/favicon.ico" type="image/x-icon">
 	<meta name="keywords" content="ручная автомойка" />
 	<meta name="description" content="Ручная автомобильная мойка по адресу: Шипловская улица, 18" />
@@ -53,6 +55,9 @@
 							</li>
 							<li class='menu_page__section_2'>
 								<a data-goto=".page__section_2" href="#" class="menu__link">Преимущества</a>
+							</li>
+							<li class='menu_page__section_4'>
+								<a data-goto=".page__section_4" href="#" class="menu__link">Отзывы</a>
 							</li>
 							<li class='menu_page__section_3'>
 								<a data-goto=".page__section_3" href="#" class="menu__link">Прайс</a>
@@ -128,6 +133,36 @@
 						<p>Мы предоставляем скидки постоянным клиентам и в сезон, чтобы сделать наши услуги ещё более
 							доступными.</p>
 					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="parallax-20"></div>
+
+	<div id="reviews" class="page__section_4">
+		<div class="container">
+			<h2 class="reviews__header">
+				Отзывы
+			</h2>
+			<div class="sw-app-body sw-animation">
+				<div class="rating-summary">
+					<div class="rating-summary-content">
+						<span id="rating-value">4.5</span>&nbsp;из 5.0<span id="rating-stars">&nbsp;</span>на
+						основе&nbsp;<span id="review-count">220</span>&nbsp;<span id="review-declension">отзывов</span>
+					</div>
+
+					<a href="https://yandex.ru/maps/org/ruchnaya_moyka/166413061575/reviews/?add-review=true" target="_blank"
+						class="review-button" rel="nofollow">Оставить отзыв</a>
+				</div>
+
+				<div class="review-carousel swiper-container">
+					<div class="swiper-wrapper">
+						<!-- Слайды будут добавляться динамически -->
+					</div>
+					<!-- Кнопки управления каруселью -->
+					<button class="carousel-button prev" aria-label="Предыдущий отзыв">&#9664;</button>
+					<button class="carousel-button next" aria-label="Следующий отзыв">&#9654;</button>
 				</div>
 			</div>
 		</div>
@@ -675,6 +710,8 @@
 		</div> -->
 
 	<script src="utils.js"></script>
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<script src="reviews.js"></script>
 
 	<!-- Yandex.Metrika counter -->
 	<script type="text/javascript">

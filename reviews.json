@@ -1,0 +1,683 @@
+{
+  "overallRating": 4.8,
+  "reviews": [
+    {
+      "businessComment": {
+        "text": "Благодарим Вас, Асель, за прекрасный отзыв и высокую оценку нашей работы. Гидрофобное покрытие - это тема!",
+        "updatedTime": "2024-07-14T12:22:32.780Z"
+      },
+      "reviewId": "uUbprTE9JYy1wsXDDjeHYWIpkm32uoE",
+      "businessId": "166413061575",
+      "author": {
+        "name": "Асель Рахмонова",
+        "avatarUrl": "https://avatars.mds.yandex.net/get-yapic/38436/0gQs4oX6CYVbzMlQdnbhFx6PXb8-1/{size}",
+        "professionLevel": "Знаток города 20 уровня",
+        "publicId": "6kgv0nkhtt18gfr35129002h2g",
+        "achievements": [],
+        "professions": [],
+        "isSubscribed": false
+      },
+      "text": "Хорошая ручная мойка. Довольно тщательно вымыли мне машину. Все проблемные места, внутри машины и снаружи, все аккуратно вымыли. Времени, конечно, много это все заняло. Ребята подсказали ещё возможность сделать гидрофобное покрытие, хорошая идея оказалась, сейчас, после этой мойки и покрытия могу себе позволить просто периодически смывать пыль, и машина чистая",
+      "textLanguage": "ru",
+      "textTranslations": {},
+      "rating": 5,
+      "updatedTime": "2024-07-06T06:07:16.633Z",
+      "reactions": {
+        "likes": 2,
+        "dislikes": 0,
+        "userReaction": "NONE"
+      },
+      "photos": [],
+      "videos": []
+    },
+    {
+      "businessComment": {
+        "text": "Благодарим Вас за прекрасный отзыв и высокую оценку нашей работы. 👍🏽",
+        "updatedTime": "2024-03-11T08:22:52.963Z"
+      },
+      "reviewId": "hVZIZogcZ0ZMyXVysQviylnNNou1k5",
+      "businessId": "166413061575",
+      "author": {
+        "name": "O Fedorok",
+        "avatarUrl": "https://avatars.mds.yandex.net/get-yapic/30955/4Md6fSJgBYdXGI1ho8pbqAPoP1U-1/{size}",
+        "professionLevel": "Знаток города 10 уровня",
+        "publicId": "ha3v54emctb31tvym6ct91jz7c",
+        "achievements": [],
+        "professions": [],
+        "isSubscribed": false
+      },
+      "text": "Мальчики-красавчики!! Машина была очень грязная и сам кузов и особенно внутри, мыли вручную и сделали все на высшем уровне👍🏽👍🏽👍🏽 Снаружи машина блестит, внутри все разложили и убрали, снимали детские кресла и мыли прям все все все 👍🏽👍🏽👍🏽👍🏽 очень чисто и аккуратно, вежливые  и очень симпатичные ребята, работа на высоте !!!! Огромное спасибо !!!! Еще есть мойка автомат \nТеперь это моя любимая мойка!!! Рекомендую !!!",
+      "textLanguage": "ru",
+      "textTranslations": {},
+      "rating": 5,
+      "updatedTime": "2024-03-08T16:44:57.723Z",
+      "reactions": {
+        "likes": 4,
+        "dislikes": 0,
+        "userReaction": "NONE"
+      },
+      "photos": [
+        {
+          "type": "photo",
+          "id": "6548191_2a0000018e1ef407e5b99d12f3ac38de2d77",
+          "businessId": "166413061575",
+          "urlTemplate": "https://avatars.mds.yandex.net/get-altay/6548191/2a0000018e1ef407e5b99d12f3ac38de2d77/{size}",
+          "createdTime": 1709916297156,
+          "moderation": {
+            "status": "ACCEPTED"
+          },
+          "showReactions": true,
+          "reactions": {
+            "likes": 0,
+            "dislikes": 0,
+            "userReaction": "NONE"
+          },
+          "copyright": {
+            "name": "O Fedorok",
+            "publicId": "ha3v54emctb31tvym6ct91jz7c",
+            "imageUrlTemplate": "https://avatars.mds.yandex.net/get-yapic/30955/4Md6fSJgBYdXGI1ho8pbqAPoP1U-1/{size}",
+            "updateTime": 1709916297156,
+            "isSubscribed": false
+          }
+        }
+      ],
+      "videos": []
+    },
+    {
+      "businessComment": {
+        "text": "Благодарим Вас, Мира, за прекрасный отзыв и высокую оценку нашей ручной мойки. До новых встреч!",
+        "updatedTime": "2024-06-23T19:08:39.958Z"
+      },
+      "reviewId": "B0toEGwLCabzMgysXcHJUCK1QokoOSJVC",
+      "businessId": "166413061575",
+      "author": {
+        "name": "Мира Рылеева",
+        "avatarUrl": "https://avatars.mds.yandex.net/get-yapic/45566/okJj6cXzgnAjVKeSxzk7kC26LiY-1/{size}",
+        "professionLevel": "Знаток города 9 уровня",
+        "publicId": "kk34wbjayg7j4yek17gv57wfkg",
+        "achievements": [],
+        "professions": [],
+        "isSubscribed": false
+      },
+      "text": "Здесь мне помыли машину полностью вручную, то есть качество и чистота на высшем уровне. Добрались буквально во всё углы автомобиля, на совесть сделали. При том, что я и не контролировала лично сама, в комнате ожидания провела время с комфортом. Почти целый час машину мыли, так что удобное место для ожидания было актуально. Машина сейчас как новая практически.",
+      "textLanguage": "ru",
+      "textTranslations": {},
+      "rating": 5,
+      "updatedTime": "2024-06-18T03:44:44.234Z",
+      "reactions": {
+        "likes": 1,
+        "dislikes": 0,
+        "userReaction": "NONE"
+      },
+      "photos": [],
+      "videos": []
+    },
+    {
+      "businessComment": {
+        "text": "Благодарим Вас, Василиса, за прекрасный отзыв. Хорошего весеннего настроения!",
+        "updatedTime": "2024-03-13T15:06:16.504Z"
+      },
+      "reviewId": "TmTdnY6Ku9l_S6GH9myE0Ja-_UU5MLn",
+      "businessId": "166413061575",
+      "author": {
+        "name": "Василиса П.",
+        "avatarUrl": "https://avatars.mds.yandex.net/get-yapic/43978/enc-2f09df4c11908877a1b9eb7e4671429cc58a5c84eba6add81292bff1be963880/{size}",
+        "professionLevel": "Знаток города 5 уровня",
+        "publicId": "kfmtjh3zc4e59dzq5gky2wre3g",
+        "achievements": [],
+        "professions": [],
+        "isSubscribed": false
+      },
+      "text": "Хорошая автомойка, цена ниже чем у других а качество хорошее! Ребята очень вежливые! Всегда остаюсь довольна.\nПриехала 8 марта помыть машину так ребята сделали подарок и помыли бесплатно!!!! Приятно была удивлена.\nСпасибо вам большое!\nРекомендую всем",
+      "textLanguage": "ru",
+      "textTranslations": {},
+      "rating": 5,
+      "updatedTime": "2024-03-09T07:06:51.348Z",
+      "reactions": {
+        "likes": 4,
+        "dislikes": 0,
+        "userReaction": "NONE"
+      },
+      "photos": [],
+      "videos": []
+    },
+    {
+      "businessComment": {
+        "text": "Благодарим Вас, Дамир, за развернутый отзыв и высокую оценку нашей ручной автомойки.",
+        "updatedTime": "2024-02-18T10:25:12.280Z"
+      },
+      "reviewId": "gf8LVE4GfY97ZfpO27fQ0Pmw3MJ0reFmS",
+      "businessId": "166413061575",
+      "author": {
+        "name": "Дамир Ш.",
+        "avatarUrl": "https://avatars.mds.yandex.net/get-yapic/45848/7kDJbdQBYqiTG18abFi8RnC7p6Q-1/{size}",
+        "professionLevel": "Знаток города 26 уровня",
+        "publicId": "d3ddaavdv8jvcr0x82j2quhwv4",
+        "achievements": [],
+        "professions": [],
+        "isSubscribed": false
+      },
+      "text": "Находится на АЗС на Каширском шоссе. На противоположной стороне Шипиловской улицы от Каширская Плаза. Культовое месторасположение с различными вариантами подъезда. Один пост. Заезд со стороны Шипиловской улицы.",
+      "textLanguage": "ru",
+      "textTranslations": {},
+      "rating": 5,
+      "updatedTime": "2024-02-13T05:44:51.607Z",
+      "reactions": {
+        "likes": 4,
+        "dislikes": 0,
+        "userReaction": "NONE"
+      },
+      "photos": [],
+      "videos": []
+    },
+    {
+      "businessComment": {
+        "text": "Благодарим Вас, Павел, за высокую оценку нашей работы. Ваша похвала приятна.",
+        "updatedTime": "2024-04-08T18:42:59.317Z"
+      },
+      "reviewId": "QT885oLvc9v6KO0knko-Rzn8lMI2HEeI",
+      "businessId": "166413061575",
+      "author": {
+        "name": "Павел Валентинович",
+        "avatarUrl": "https://avatars.mds.yandex.net/get-yapic/24700/enc-b8f58e4527253cd0397ec7a924f3b8f4f24874f4dc922b4eb50b455107676f1a/{size}",
+        "professionLevel": "Знаток города 9 уровня",
+        "publicId": "stibani4",
+        "achievements": [],
+        "professions": [],
+        "isSubscribed": false
+      },
+      "text": "Недавно был там, отмыли идеально, комплексная мойка шикарная, даже пепельницу промыли, я очень доволен и очень рекомендую, качественно быстро и не дорого",
+      "textLanguage": "ru",
+      "textTranslations": {},
+      "rating": 5,
+      "updatedTime": "2024-04-05T07:22:15.387Z",
+      "reactions": {
+        "likes": 3,
+        "dislikes": 0,
+        "userReaction": "NONE"
+      },
+      "photos": [],
+      "videos": []
+    },
+    {
+      "businessComment": {
+        "text": "Благодарим Вас, Dima, за прекрасный отзыв и высокую оценку нашей работы.",
+        "updatedTime": "2024-03-26T07:29:43.117Z"
+      },
+      "reviewId": "t6nMfnsTuXN6LjsAs4F5qHdQN27Qpl",
+      "businessId": "166413061575",
+      "author": {
+        "name": "Dima B.",
+        "avatarUrl": "",
+        "professionLevel": "Знаток города 5 уровня",
+        "publicId": "8mx55ftjaek11gv6k74dk1f9hm",
+        "achievements": [],
+        "professions": [],
+        "isSubscribed": false
+      },
+      "text": "Ручная мойка на высшем уровне!!!Парни красавчики - так качественно отмывают автомобиль !  Я  глазам своим не поверил , когда увидел автомобиль после мойки он заблестел и вдохнул новую жизнь)) .   Уборка в салоне на высшем уровне , почистили салон, вымыли все стекла.  Спасибо Вам !!!",
+      "textLanguage": "ru",
+      "textTranslations": {},
+      "rating": 5,
+      "updatedTime": "2024-03-19T05:11:17.431Z",
+      "reactions": {
+        "likes": 3,
+        "dislikes": 0,
+        "userReaction": "NONE"
+      },
+      "photos": [],
+      "videos": []
+    },
+    {
+      "businessComment": {
+        "text": "Благодарим Вас за прекрасный отзыв и высокую оценку нашей ручной мойки. Ваша похвала приятна, особенно Исламу и Михаилу.",
+        "updatedTime": "2024-07-03T20:04:14.397Z"
+      },
+      "reviewId": "lbUit5c-XVC9xUE8BQ7x_Vd-Ry0GjQT",
+      "businessId": "166413061575",
+      "author": {
+        "name": "feedher1727",
+        "avatarUrl": "",
+        "professionLevel": "Знаток города 4 уровня",
+        "publicId": "b0x3wgquq9uv36yn8mmk1dr3ww",
+        "achievements": [],
+        "professions": [],
+        "isSubscribed": false
+      },
+      "text": "Хочу сказать большое человеческое спасибо Исламу и Михаилу за их труд. Просто мастера своего дела. Лучшие! Такого отношения к автомобилям клиентов мне раньше не доводилось встречать! Бережно, аккуратно и профессионально - вот как можно охарактеризовать подход ребят к мойке автомобиля. Бесконечный респект !!!🤝🤝🤝",
+      "textLanguage": "ru",
+      "textTranslations": {},
+      "rating": 5,
+      "updatedTime": "2024-06-30T16:30:24.720Z",
+      "reactions": {
+        "likes": 2,
+        "dislikes": 0,
+        "userReaction": "NONE"
+      },
+      "photos": [],
+      "videos": []
+    },
+    {
+      "businessComment": {
+        "text": "Благодарим Вас, Виктор, за прекрасный отзыв и высокую оценку нашей ручной автомойки. Ваша похвала приятна, особенно Игорю.",
+        "updatedTime": "2024-02-12T07:06:04.232Z"
+      },
+      "reviewId": "qz3xWUQlFsq0NaaZFgaOXFy7RdzNXm",
+      "businessId": "166413061575",
+      "author": {
+        "name": "Виктор",
+        "avatarUrl": "",
+        "professionLevel": "Знаток города 7 уровня",
+        "publicId": "v4xjn9w062frwutwe1wxj5mfyr",
+        "achievements": [],
+        "professions": [],
+        "isSubscribed": false
+      },
+      "text": "Без очереди. Очень качественно помыли. \nСделали обезжиревание и восстановление хрома . Блестит  👍\nХотел бы отметить мойщика Игоря с его профессиональным отношением к делу.\nСоветую! ",
+      "textLanguage": "ru",
+      "textTranslations": {},
+      "rating": 5,
+      "updatedTime": "2024-02-11T12:28:53.066Z",
+      "reactions": {
+        "likes": 4,
+        "dislikes": 0,
+        "userReaction": "NONE"
+      },
+      "photos": [
+        {
+          "type": "photo",
+          "id": "11400795_2a0000018d982416eeef270a5dc02c8fb6bb",
+          "businessId": "166413061575",
+          "urlTemplate": "https://avatars.mds.yandex.net/get-altay/11400795/2a0000018d982416eeef270a5dc02c8fb6bb/{size}",
+          "createdTime": 1707654522053,
+          "moderation": {
+            "status": "ACCEPTED"
+          },
+          "showReactions": true,
+          "reactions": {
+            "likes": 0,
+            "dislikes": 0,
+            "userReaction": "NONE"
+          },
+          "copyright": {
+            "name": "Виктор",
+            "publicId": "v4xjn9w062frwutwe1wxj5mfyr",
+            "imageUrlTemplate": "",
+            "updateTime": 1707654522053,
+            "isSubscribed": false
+          }
+        },
+        {
+          "type": "photo",
+          "id": "11401274_2a0000018d98241822caeb240d84b9a4fdf5",
+          "businessId": "166413061575",
+          "urlTemplate": "https://avatars.mds.yandex.net/get-altay/11401274/2a0000018d98241822caeb240d84b9a4fdf5/{size}",
+          "createdTime": 1707654522263,
+          "moderation": {
+            "status": "ACCEPTED"
+          },
+          "showReactions": true,
+          "reactions": {
+            "likes": 0,
+            "dislikes": 0,
+            "userReaction": "NONE"
+          },
+          "copyright": {
+            "name": "Виктор",
+            "publicId": "v4xjn9w062frwutwe1wxj5mfyr",
+            "imageUrlTemplate": "",
+            "updateTime": 1707654522263,
+            "isSubscribed": false
+          }
+        },
+        {
+          "type": "photo",
+          "id": "8377501_2a0000018d9824173cca28c23ea4f0b27384",
+          "businessId": "166413061575",
+          "urlTemplate": "https://avatars.mds.yandex.net/get-altay/8377501/2a0000018d9824173cca28c23ea4f0b27384/{size}",
+          "createdTime": 1707654521576,
+          "moderation": {
+            "status": "ACCEPTED"
+          },
+          "showReactions": true,
+          "reactions": {
+            "likes": 0,
+            "dislikes": 0,
+            "userReaction": "NONE"
+          },
+          "copyright": {
+            "name": "Виктор",
+            "publicId": "v4xjn9w062frwutwe1wxj5mfyr",
+            "imageUrlTemplate": "",
+            "updateTime": 1707654521576,
+            "isSubscribed": false
+          }
+        }
+      ],
+      "videos": []
+    },
+    {
+      "businessComment": {
+        "text": "Благодарим Вас, Кирилл, за высокую оценку нашей ручной автомойки.",
+        "updatedTime": "2024-04-14T09:27:19.259Z"
+      },
+      "reviewId": "MAFZfyXAWbnfkFi62GeYSc5EToI0zgVq",
+      "businessId": "166413061575",
+      "author": {
+        "name": "Кирилл Матвеев",
+        "avatarUrl": "https://avatars.mds.yandex.net/get-yapic/20706/enc-7d0a526df39c4680d6c4e2083bae078075e174156018245c4cfe7b34b4e2e489/{size}",
+        "professionLevel": "Знаток города 13 уровня",
+        "publicId": "w5vh8m9v3q09x27m54qwqv4qbg",
+        "achievements": [],
+        "professions": [],
+        "isSubscribed": false
+      },
+      "text": "Хорошая, удобная мойка, для не сильно грязных машин! Быстро, чисто.",
+      "textLanguage": "ru",
+      "textTranslations": {},
+      "rating": 5,
+      "updatedTime": "2024-04-10T18:00:18.263Z",
+      "reactions": {
+        "likes": 3,
+        "dislikes": 0,
+        "userReaction": "NONE"
+      },
+      "photos": [],
+      "videos": []
+    },
+    {
+      "businessComment": {
+        "text": "Благодарим Вас, Андрюша, за прекрасный отзыв и высокую оценку ручной мойки. До новых встреч!",
+        "updatedTime": "2024-04-30T13:22:36.410Z"
+      },
+      "reviewId": "fYO4n670isIkddVcYwzSjVi31DDog4A",
+      "businessId": "166413061575",
+      "author": {
+        "name": "Андрюша",
+        "avatarUrl": "https://avatars.mds.yandex.net/get-yapic/35885/YwB3Hfrc7BhDVpIjxGGrbVG4M-1/{size}",
+        "professionLevel": "Знаток города 9 уровня",
+        "publicId": "",
+        "achievements": [],
+        "professions": [],
+        "isSubscribed": false
+      },
+      "text": "Запустил машину за зиму совсем, приехал на комплексную мойку к Михаилу и не пожалел ни капли. Машина блестит, салон внутри как новый, каждый элемент кузова и салона очищен на 101% у пыли и грязи не было шансов)) Цены очень приятные, есть комната ожидания с диванчиками. Теперь, если мойка, то только тут) ",
+      "textLanguage": "ru",
+      "textTranslations": {},
+      "rating": 5,
+      "updatedTime": "2024-04-28T05:12:35.389Z",
+      "reactions": {
+        "likes": 1,
+        "dislikes": 0,
+        "userReaction": "NONE"
+      },
+      "photos": [
+        {
+          "type": "photo",
+          "id": "10233337_2a0000018f231e93feef44fe0d376c1557ee",
+          "businessId": "166413061575",
+          "urlTemplate": "https://avatars.mds.yandex.net/get-altay/10233337/2a0000018f231e93feef44fe0d376c1557ee/{size}",
+          "createdTime": 1714281161224,
+          "moderation": {
+            "status": "ACCEPTED"
+          },
+          "showReactions": true,
+          "reactions": {
+            "likes": 0,
+            "dislikes": 0,
+            "userReaction": "NONE"
+          },
+          "copyright": {
+            "name": "Андрюша",
+            "publicId": "",
+            "imageUrlTemplate": "https://avatars.mds.yandex.net/get-yapic/35885/YwB3Hfrc7BhDVpIjxGGrbVG4M-1/{size}",
+            "updateTime": 1714281161224,
+            "isSubscribed": false
+          }
+        }
+      ],
+      "videos": []
+    },
+    {
+      "businessComment": {
+        "text": "Благодарим, Дмитрий, за высокую оценку предоставленного Вам сервиса по автомобильной мойке.",
+        "updatedTime": "2024-03-20T09:13:09.589Z"
+      },
+      "reviewId": "yARFOaCHwL2vD22n3_B2nAiW2clIs_t",
+      "businessId": "166413061575",
+      "author": {
+        "name": "Дмитрий Паньков",
+        "avatarUrl": "https://avatars.mds.yandex.net/get-yapic/27274/hLccULU0mCf1l8XjgFPjZPXDg-1/{size}",
+        "professionLevel": "Знаток города 3 уровня",
+        "publicId": "3hq8hwpn5gqyjw98p4ee7emacm",
+        "achievements": [],
+        "professions": [],
+        "isSubscribed": false
+      },
+      "text": "Спасибо вам! \nЗа прекрасный сервис, дело свое знаете. \nСоветую. ",
+      "textLanguage": "ru",
+      "textTranslations": {},
+      "rating": 5,
+      "updatedTime": "2024-03-17T13:47:09.290Z",
+      "reactions": {
+        "likes": 3,
+        "dislikes": 0,
+        "userReaction": "NONE"
+      },
+      "photos": [],
+      "videos": []
+    },
+    {
+      "businessComment": {
+        "text": "Благодарим Вас, Timofey, за прекрасный отзыв и высокую оценку нашей ручной автомойки.",
+        "updatedTime": "2024-02-06T17:02:16.953Z"
+      },
+      "reviewId": "-DrnKjgUKjKjNM6pko22DJBB0AtzKdy",
+      "businessId": "166413061575",
+      "author": {
+        "name": "Timofey D.",
+        "avatarUrl": "",
+        "professionLevel": "Знаток города 11 уровня",
+        "publicId": "",
+        "achievements": [],
+        "professions": [],
+        "isSubscribed": false
+      },
+      "text": "Ручная мойка на старом месте! Уровень сейчас на высоте..небо и земля то что было!\nПрофессиональный подход сразу чувствуется..так держать! \nРекомендую!!!",
+      "textLanguage": "ru",
+      "textTranslations": {},
+      "rating": 5,
+      "updatedTime": "2024-02-02T14:28:10.595Z",
+      "reactions": {
+        "likes": 4,
+        "dislikes": 0,
+        "userReaction": "NONE"
+      },
+      "photos": [
+        {
+          "type": "photo",
+          "id": "10092863_2a0000018d6a385376f6d60fb01a42ed73d1",
+          "businessId": "166413061575",
+          "urlTemplate": "https://avatars.mds.yandex.net/get-altay/10092863/2a0000018d6a385376f6d60fb01a42ed73d1/{size}",
+          "createdTime": 1706884097031,
+          "moderation": {
+            "status": "ACCEPTED"
+          },
+          "showReactions": true,
+          "reactions": {
+            "likes": 1,
+            "dislikes": 0,
+            "userReaction": "NONE"
+          },
+          "copyright": {
+            "name": "Timofey D.",
+            "publicId": "",
+            "imageUrlTemplate": "",
+            "updateTime": 1706884097031,
+            "isSubscribed": false
+          }
+        },
+        {
+          "type": "photo",
+          "id": "11395677_2a0000018d6a386de626d7325e2feac05e14",
+          "businessId": "166413061575",
+          "urlTemplate": "https://avatars.mds.yandex.net/get-altay/11395677/2a0000018d6a386de626d7325e2feac05e14/{size}",
+          "createdTime": 1706884102765,
+          "moderation": {
+            "status": "ACCEPTED"
+          },
+          "showReactions": true,
+          "reactions": {
+            "likes": 0,
+            "dislikes": 0,
+            "userReaction": "NONE"
+          },
+          "copyright": {
+            "name": "Timofey D.",
+            "publicId": "",
+            "imageUrlTemplate": "",
+            "updateTime": 1706884102765,
+            "isSubscribed": false
+          }
+        }
+      ],
+      "videos": []
+    },
+    {
+      "businessComment": {
+        "text": "Благодарим Вас, Сергей, за прекрасный отзыв и высокую оценку нашей ручной автомойки.",
+        "updatedTime": "2024-02-29T12:41:32.596Z"
+      },
+      "reviewId": "lDd22d3mRl2myNFUd3wPIt0YwK24XAar",
+      "businessId": "166413061575",
+      "author": {
+        "name": "сергей чесноков",
+        "avatarUrl": "",
+        "professionLevel": "Знаток города 8 уровня",
+        "publicId": "tf7j5rh219fqeraxy9bndmax68",
+        "achievements": [],
+        "professions": [],
+        "isSubscribed": false
+      },
+      "text": "Был. Мыл. Хорошо сделали. Лучше по записи. А так ОК",
+      "textLanguage": "ru",
+      "textTranslations": {},
+      "rating": 5,
+      "updatedTime": "2024-02-23T14:56:59.216Z",
+      "reactions": {
+        "likes": 3,
+        "dislikes": 0,
+        "userReaction": "NONE"
+      },
+      "photos": [
+        {
+          "type": "photo",
+          "id": "10376970_2a0000018dd6782fa23cafc7be34bd482743",
+          "businessId": "166413061575",
+          "urlTemplate": "https://avatars.mds.yandex.net/get-altay/10376970/2a0000018dd6782fa23cafc7be34bd482743/{size}",
+          "createdTime": 1708700218840,
+          "moderation": {
+            "status": "ACCEPTED"
+          },
+          "showReactions": true,
+          "reactions": {
+            "likes": 0,
+            "dislikes": 0,
+            "userReaction": "NONE"
+          },
+          "copyright": {
+            "name": "сергей чесноков",
+            "publicId": "tf7j5rh219fqeraxy9bndmax68",
+            "imageUrlTemplate": "",
+            "updateTime": 1708700218840,
+            "isSubscribed": false
+          }
+        }
+      ],
+      "videos": []
+    },
+    {
+      "businessComment": {
+        "text": "Благодарим Вас, Константин, за высокую оценку ручной автомойки.",
+        "updatedTime": "2024-04-17T18:42:13.614Z"
+      },
+      "reviewId": "4GfQc5Bv5tLnb7AayxqWwt6LWgk8_XZ2",
+      "businessId": "166413061575",
+      "author": {
+        "name": "Константин Монахов",
+        "avatarUrl": "",
+        "professionLevel": "Знаток города 13 уровня",
+        "publicId": "72k5vxka5x18rfhtf271jnhhr0",
+        "achievements": [],
+        "professions": [],
+        "isSubscribed": false
+      },
+      "text": "Постоянные очереди))) но в целом не плохо",
+      "textLanguage": "ru",
+      "textTranslations": {},
+      "rating": 5,
+      "updatedTime": "2024-04-14T16:54:12.898Z",
+      "reactions": {
+        "likes": 1,
+        "dislikes": 0,
+        "userReaction": "NONE"
+      },
+      "photos": [],
+      "videos": []
+    },
+    {
+      "businessComment": {
+        "text": "Благодарим Вас, Виталий, за высокую оценку нашей ручной мойки.",
+        "updatedTime": "2024-04-14T09:27:44.297Z"
+      },
+      "reviewId": "oV6FGj9KR3fwdfDc0POOIXKx2b44EV",
+      "businessId": "166413061575",
+      "author": {
+        "name": "Виталий К",
+        "avatarUrl": "https://avatars.mds.yandex.net/get-yapic/65952/RBeyCIvjPk9YGFLc38oyjSe0b9o-1/{size}",
+        "professionLevel": "Знаток города 18 уровня",
+        "publicId": "qpq96gxrvbx5fvb1rw034gppy0",
+        "achievements": [],
+        "professions": [],
+        "isSubscribed": false
+      },
+      "text": "Моют хорошо и быстро.",
+      "textLanguage": "ru",
+      "textTranslations": {},
+      "rating": 5,
+      "updatedTime": "2024-04-13T16:58:35.418Z",
+      "reactions": {
+        "likes": 3,
+        "dislikes": 0,
+        "userReaction": "NONE"
+      },
+      "photos": [],
+      "videos": []
+    },
+    {
+      "reviewId": "TrwddtgzsKgcs2y6QKQqmfEQQIRL4X4",
+      "businessId": "166413061575",
+      "author": {
+        "name": "Роман М.",
+        "avatarUrl": "",
+        "professionLevel": "Знаток города 8 уровня",
+        "publicId": "5wrmw14pjk0bk3yyfqcxbh3rf0",
+        "achievements": [],
+        "professions": [],
+        "isSubscribed": false
+      },
+      "text": "Молодец парнишка!",
+      "textLanguage": "ru",
+      "textTranslations": {},
+      "rating": 5,
+      "updatedTime": "2024-07-27T16:58:49.807Z",
+      "reactions": {
+        "likes": 1,
+        "dislikes": 0,
+        "userReaction": "NONE"
+      },
+      "photos": [],
+      "videos": []
+    }
+  ]
+}
