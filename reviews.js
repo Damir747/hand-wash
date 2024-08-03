@@ -1,9 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
 	fetch('reviews.json')
-		.then(response => {
-			console.log(response);
-			return response.json()
-		})
+		.then(response => response.json())
 		.then(data => {
 			if (!data || !data.reviews || !data.overallRating) {
 				console.error('Нет данных для отображения');
@@ -200,7 +197,6 @@ function calculateLineHeight(element) {
 	// Удаление временного элемента
 	document.body.removeChild(tempElement);
 
-	console.log(`Line height: ${lineHeight}px`); // Логируем высоту строки
 	return lineHeight;
 }
 
