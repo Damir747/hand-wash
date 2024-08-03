@@ -1,4 +1,10 @@
 document.addEventListener('DOMContentLoaded', function () {
+	// Асинхронная подгрузка CSS-стилей
+	const link = document.createElement('link');
+	link.rel = 'stylesheet';
+	link.href = 'reviews.css';
+	document.head.appendChild(link);
+
 	fetch('reviews.json')
 		.then(response => response.json())
 		.then(data => {

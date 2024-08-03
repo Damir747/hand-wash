@@ -7,7 +7,7 @@
 	<title>Ручная мойка. Шипиловская, 18</title>
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-	<link rel="stylesheet" href="reviews.css">
+	<!-- <link rel="stylesheet" href="reviews.css"> -->
 	<link rel="icon" href="/favicon.ico" type="image/x-icon">
 	<meta name="keywords" content="ручная автомойка" />
 	<meta name="description" content="Ручная автомобильная мойка по адресу: Шипловская улица, 18" />
@@ -112,7 +112,8 @@
 			<div class="advantages__row">
 				<div class="advantages__item advantages__item_1">
 					<div class="advantages__item__content">
-						<img class="advantages__item__image" src="/images/beautiful.png" />
+						<img class="advantages__item__image" src="/images/beautiful.png" loading="lazy"
+							alt="качественная работа" />
 						<h3 class="advantages__item__header">Качественная работа</h3>
 						<p>Мы гарантируем высокое качество мойки автомобилей, удовлетворяя самые строгие требования наших
 							клиентов.</p>
@@ -120,7 +121,7 @@
 				</div>
 				<div class="advantages__item advantages__item_2">
 					<div class="advantages__item__content">
-						<img class="advantages__item__image" src="/images/sofa.png" />
+						<img class="advantages__item__image" src="/images/sofa.png" loading="lazy" alt="диван" />
 						<h3 class="advantages__item__header">Комфортная зона ожидания</h3>
 						<p class="advanteges__item__text">Большая светлая зона ожидания с телевизором и бесплатным кофе, что
 							обеспечивает повышенный комфорт для клиентов.</p>
@@ -128,7 +129,7 @@
 				</div>
 				<div class="advantages__item advantages__item_3">
 					<div class="advantages__item__content">
-						<img class="advantages__item__image" src="/images/wallet.png" />
+						<img class="advantages__item__image" src="/images/wallet.png" loading="lazy" alt="кошелек" />
 						<h3 class="advantages__item__header">Сезонные скидки</h3>
 						<p>Мы предоставляем скидки постоянным клиентам и в сезон, чтобы сделать наши услуги ещё более
 							доступными.</p>
@@ -715,13 +716,14 @@
 
 	<!-- Yandex.Metrika counter -->
 	<script type="text/javascript">
-		(function (m, e, t, r, i, k, a) {
-			m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
-			m[i].l = 1 * new Date();
-			for (var j = 0; j < document.scripts.length; j++) { if (document.scripts[j].src === r) { return; } }
-			k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
-		})
-			(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+		setTimeout(
+			(function (m, e, t, r, i, k, a) {
+				m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
+				m[i].l = 1 * new Date();
+				for (var j = 0; j < document.scripts.length; j++) { if (document.scripts[j].src === r) { return; } }
+				k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+			})
+				(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym"), 1000);
 
 		ym(97536957, "init", {
 			clickmap: true,
@@ -730,7 +732,8 @@
 		});
 	</script>
 	<noscript>
-		<div><img src="https://mc.yandex.ru/watch/97536957" style="position:absolute; left:-9999px;" alt="" /></div>
+		<div><img src="https://mc.yandex.ru/watch/97536957" loading="lazy" style="position:absolute; left:-9999px;"
+				alt="" /></div>
 	</noscript>
 	<!-- /Yandex.Metrika counter -->
 </body>
