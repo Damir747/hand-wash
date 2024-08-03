@@ -60,6 +60,7 @@
 .review-carousel {
 	position: relative;
 	overflow: hidden;
+	padding-bottom: 10px;
 }
 
 .swiper-wrapper {
