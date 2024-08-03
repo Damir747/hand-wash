@@ -51,8 +51,10 @@ document.addEventListener('DOMContentLoaded', function () {
 					: `<div class="user-icon-view__icon ${colorClass}">${firstLetter}</div>`;
 
 				const userProfileLink = review.author?.publicId
-					? `https://yandex.ru/maps/user/${review.author.publicId}`
-					: '#';
+					? `<a href="https://yandex.ru/maps/user/${review.author.publicId}" target="_blank" rel="nofollow">
+						${review.author?.name || 'Без имени'}
+					</a>`
+					: `${review.author?.name || 'Без имени'}`;
 
 				reviewElement.innerHTML = `
                     <div class="review">
@@ -60,22 +62,19 @@ document.addEventListener('DOMContentLoaded', function () {
                             ${userIcon}
                             <div class="review-info">
                                 <div class="review-author">
-                                    <a href="${userProfileLink}" target="_blank" rel="nofollow">
-                                        ${review.author?.name || 'Без имени'}
-                                    </a>
-                                </div>
+                                    ${userProfileLink}
+                                </div >
                                 <div class="review-level">${review.author?.professionLevel || 'Без уровня'}</div>
                                 <div class="review-rating stars">${getStars(review.rating)}</div>
                                 <div class="review-date">${new Date(review.updatedTime).toLocaleDateString()}</div>
-                            </div>
-                        </div>
-                        <div class="review-content">
-                            <p class="review-text">${review.text}</p>
-                            <span class="read-more" onclick="toggleReview(this)">Читать полностью</span>
-                        </div>
-                    </div>
-                `;
-
+                            </div >
+                        </div >
+				<div class="review-content">
+					<p class="review-text">${review.text}</p>
+					<span class="read-more" onclick="toggleReview(this)">Читать полностью</span>
+				</div>
+                    </div >
+				`;
 				carousel.appendChild(reviewElement);
 			});
 
