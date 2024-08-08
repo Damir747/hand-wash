@@ -64,3 +64,44 @@ const findElementAll = (container, selector) => {
 		}
 	}
 })();
+
+function metrika() {
+	// yandex-metrika
+	(function (m, e, t, r, i, k, a) {
+		m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
+		m[i].l = 1 * new Date();
+		for (var j = 0; j < document.scripts.length; j++) { if (document.scripts[j].src === r) { return; } }
+		k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+	})
+		(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+	ym(97536957, "init", {
+		clickmap: true,
+		trackLinks: true,
+		accurateTrackBounce: true
+	});
+}
+
+window.addEventListener('load', setTimeout(metrika, 1000));
+
+function loadCSS(href) {
+	return new Promise((resolve, reject) => {
+		const link = document.createElement('link');
+		link.rel = 'stylesheet';
+		link.href = href;
+		link.onload = () => resolve();
+		link.onerror = () => reject(new Error(`Failed to load CSS: ${href}`));
+		document.head.appendChild(link);
+	});
+}
+
+function loadScript(src) {
+	return new Promise((resolve, reject) => {
+		const script = document.createElement('script');
+		script.src = src;
+		script.async = true;
+		script.onload = () => resolve();
+		script.onerror = () => reject(new Error(`Failed to load script: ${src}`));
+		document.body.appendChild(script);
+	});
+}

@@ -2,10 +2,10 @@ document.addEventListener('DOMContentLoaded', function () {
 	// Асинхронная подгрузка CSS-стилей
 	const link = document.createElement('link');
 	link.rel = 'stylesheet';
-	link.href = 'reviews.css';
+	link.href = '/reviews/reviews.css';
 	document.head.appendChild(link);
 
-	fetch('reviews.json')
+	fetch('/reviews/reviews.json')
 		.then(response => response.json())
 		.then(data => {
 			if (!data || !data.reviews || !data.overallRating) {

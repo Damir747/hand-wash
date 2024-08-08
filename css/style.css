@@ -12,7 +12,7 @@ html {
 .parallax-30,
 .parallax-40,
 .parallax-50 {
-	background-image: url("images/image.jpg");
+	background-image: url("/images/image.jpg");
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
