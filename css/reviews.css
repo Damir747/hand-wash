@@ -1,3 +1,11 @@
+/* Основные стили */
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #f4f4f4;
+}
+
 .sw-app-body.sw-animation {
 	max-width: 1200px;
 	margin: 0 auto;
@@ -60,7 +68,6 @@
 .review-carousel {
 	position: relative;
 	overflow: hidden;
-	padding-bottom: 10px;
 }
 
 .swiper-wrapper {
@@ -243,7 +250,7 @@
 	white-space: normal;
 	transition: max-height 0.3s ease;
 	/* Плавное изменение высоты */
-	max-height: calc(20px * 3);
+	max-height: calc(1.2em * 3);
 	/* Убедитесь, что высота достаточно для 3 строк текста */
 }
 

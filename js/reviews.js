@@ -1,12 +1,8 @@
 document.addEventListener('DOMContentLoaded', function () {
-	// Асинхронная подгрузка CSS-стилей
-	const link = document.createElement('link');
-	link.rel = 'stylesheet';
-	link.href = '/reviews/reviews.css';
-	document.head.appendChild(link);
-
 	fetch('/reviews/reviews.json')
-		.then(response => response.json())
+		.then(response => {
+			return response.json()
+		})
 		.then(data => {
 			if (!data || !data.reviews || !data.overallRating) {
 				console.error('Нет данных для отображения');
@@ -51,10 +47,8 @@ document.addEventListener('DOMContentLoaded', function () {
 					: `<div class="user-icon-view__icon ${colorClass}">${firstLetter}</div>`;
 
 				const userProfileLink = review.author?.publicId
-					? `<a href="https://yandex.ru/maps/user/${review.author.publicId}" target="_blank" rel="nofollow">
-						${review.author?.name || 'Без имени'}
-					</a>`
-					: `${review.author?.name || 'Без имени'}`;
+					? `https://yandex.ru/maps/user/${review.author.publicId}`
+					: '#';
 
 				reviewElement.innerHTML = `
                     <div class="review">
@@ -62,19 +56,22 @@ document.addEventListener('DOMContentLoaded', function () {
                             ${userIcon}
                             <div class="review-info">
                                 <div class="review-author">
-                                    ${userProfileLink}
-                                </div >
+                                    <a href="${userProfileLink}" target="_blank" rel="nofollow">
+                                        ${review.author?.name || 'Без имени'}
+                                    </a>
+                                </div>
                                 <div class="review-level">${review.author?.professionLevel || 'Без уровня'}</div>
                                 <div class="review-rating stars">${getStars(review.rating)}</div>
                                 <div class="review-date">${new Date(review.updatedTime).toLocaleDateString()}</div>
-                            </div >
-                        </div >
-				<div class="review-content">
-					<p class="review-text">${review.text}</p>
-					<span class="read-more" onclick="toggleReview(this)">Читать полностью</span>
-				</div>
-                    </div >
-				`;
+                            </div>
+                        </div>
+                        <div class="review-content">
+                            <p class="review-text">${review.text}</p>
+                            <span class="read-more" onclick="toggleReview(this)">Читать полностью</span>
+                        </div>
+                    </div>
+                `;
+
 				carousel.appendChild(reviewElement);
 			});
 
@@ -179,32 +176,14 @@ function reviewDeclension(number) {
 }
 
 function calculateLineHeight(element) {
-	// Создание временного элемента для расчета высоты строки
-	const tempElement = document.createElement('div');
+	// Возвращаем line-height элемента в пикселях, используя canvas
+	const canvas = document.createElement('canvas');
+	const context = canvas.getContext('2d');
 	const style = getComputedStyle(element);
-
-	// Настройка временного элемента с таким же стилем
-	tempElement.style.visibility = 'hidden';
-	tempElement.style.position = 'absolute';
-	tempElement.style.fontSize = style.fontSize;
-	tempElement.style.fontFamily = style.fontFamily;
-	tempElement.style.lineHeight = style.lineHeight; // Используем 'normal' или конкретное значение
-
-	// Добавление временного элемента в документ
-	document.body.appendChild(tempElement);
-
-	// Добавление текста для расчета высоты строки
-	tempElement.innerText = 'M'; // Высокий символ для точных измерений
-
-	// Получение высоты строки
-	const lineHeight = parseFloat(getComputedStyle(tempElement).height);
-
-	// Удаление временного элемента
-	document.body.removeChild(tempElement);
-
+	context.font = `${style.fontSize} ${style.fontFamily}`;
+	const lineHeight = parseFloat(style.lineHeight);
 	return lineHeight;
 }
-
 
 function getTextHeight(text, element) {
 	// Создаем временный canvas для измерения высоты текста

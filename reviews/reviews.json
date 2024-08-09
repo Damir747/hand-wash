@@ -1,5 +1,5 @@
 {
-  "overallRating": 4.8,
+  "overallRating": 4.9,
   "reviews": [
     {
       "businessComment": {
@@ -655,6 +655,10 @@
       "videos": []
     },
     {
+      "businessComment": {
+        "text": "Спасибо, Роман, за высокую оценку нашей работы по мойке Вашего автомобиля.",
+        "updatedTime": "2024-08-04T06:10:09.086Z"
+      },
       "reviewId": "TrwddtgzsKgcs2y6QKQqmfEQQIRL4X4",
       "businessId": "166413061575",
       "author": {
@@ -672,7 +676,7 @@
       "rating": 5,
       "updatedTime": "2024-07-27T16:58:49.807Z",
       "reactions": {
-        "likes": 1,
+        "likes": 2,
         "dislikes": 0,
         "userReaction": "NONE"
       },
